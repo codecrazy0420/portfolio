@@ -24,7 +24,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://formsubmit.co/a9513d7dbd945a8c47f09fcbe5afc3c5', {
+      const response = await fetch('https://formsubmit.co/codecrazy0420@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -101,7 +101,7 @@ const Contact = () => {
           </div>
 
           <div className="flex-1 min-w-[280px]">
-            <form className="rounded-md border border-border bg-card p-5 shadow-sm" onSubmit={handleSubmit}>
+            <form className="rounded-md border border-border bg-card p-5 shadow-sm" data-netlify="true" onSubmit={handleSubmit}>
               <div className="mb-4">
                 <label htmlFor="name" className="mb-2 block text-sm font-medium">Name</label>
                 <input
@@ -140,8 +140,6 @@ const Contact = () => {
                   placeholder="Your message"
                   rows="5"
                 ></textarea>
-                <input type="hidden" name="_next" value="https://codecrazy-portfolio.netlify.app/thank-you.html" />
-  
               </div>
               <button
                 type="submit"
