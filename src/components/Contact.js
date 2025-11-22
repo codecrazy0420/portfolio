@@ -24,7 +24,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://formsubmit.co/codementor803@gmail.com', {
+      const response = await fetch('https://formsubmit.co/codecrazy0420@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -81,7 +81,7 @@ const Contact = () => {
             <div className="mt-6 space-y-4">
               <div className="flex items-center gap-3">
                 <FaEnvelope className="text-primary" />
-                <a href="mailto:codementor803@gmail.com" className="hover:text-primary transition-colors">
+                <a href="mailto:codecrazy0420@gmail.com" className="hover:text-primary transition-colors">
                   codecrazy0420@gmail.com
                 </a>
               </div>
@@ -101,7 +101,7 @@ const Contact = () => {
           </div>
 
           <div className="flex-1 min-w-[280px]">
-            <form className="rounded-md border border-border bg-card p-5 shadow-sm" onSubmit={handleSubmit}>
+            <form className="rounded-md border border-border bg-card p-5 shadow-sm" data-netlify="true" onSubmit={handleSubmit}>
               <div className="mb-4">
                 <label htmlFor="name" className="mb-2 block text-sm font-medium">Name</label>
                 <input

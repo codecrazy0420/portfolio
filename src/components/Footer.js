@@ -36,7 +36,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a className="hover:text-primary transition-colors" href="mailto:codementor803@gmail.com" aria-label="Email">
+                <a className="hover:text-primary transition-colors" href="mailto:codecrazy0420@gmail.com" aria-label="Email">
                   <FaEnvelope size={20} />
                 </a>
               </li>
