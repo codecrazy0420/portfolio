@@ -1,0 +1,21 @@
+git init
+git config user.name "codecrazy0420"
+git config user.email "codecrazy0420@outlook.com"
+
+# Commit as if on 2023-05-10
+GIT_AUTHOR_DATE="2023-05-10T12:00:00+00:00" \
+GIT_COMMITTER_DATE="2023-05-10T12:00:00+00:00" \
+git add fileA.js
+git commit --author="codecrazy0420 <codecrazy0420@outlook.com>" --message "Add feature A (work performed May 10, 2023)" --date "2023-05-10T12:00:00+00:00"
+
+# Commit as if on 2024-02-15
+GIT_AUTHOR_DATE="2024-02-15T09:30:00+00:00" \
+GIT_COMMITTER_DATE="2024-02-15T09:30:00+00:00" \
+git add fileB.js
+git commit --author="codecrazy0420 <codecrazy0420@outlook.com>" --message "Refactor B (work performed Feb 15, 2024)" --date "2024-02-15T09:30:00+00:00"
+
+# Commit as if on 2025-06-20
+GIT_AUTHOR_DATE="2025-06-20T18:45:00+00:00" \
+GIT_COMMITTER_DATE="2025-06-20T18:45:00+00:00" \
+git add .
+git commit --author="codecrazy0420 <codecrazy0420@outlook.com>" --message "UI update & tests (work performed Jun 20, 2025)" --date "2025-06-20T18:45:00+00:00"
