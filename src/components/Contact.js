@@ -69,7 +69,7 @@ const Contact = () => {
     <section id="contact" className="py-16 sm:py-20 lg:py-24 bg-foreground/[0.02]">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contact Me</h2>
+          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contac Me</h2>
         </div>
 
         <div className="flex flex-wrap gap-10">
@@ -101,7 +101,7 @@ const Contact = () => {
           </div>
 
           <div className="flex-1 min-w-[280px]">
-            <form className="rounded-md border border-border bg-card p-5 shadow-sm" data-netlify="true" onSubmit={handleSubmit}>
+            <form className="rounded-md border border-border bg-card p-5 shadow-sm" onSubmit={handleSubmit}>
               <div className="mb-4">
                 <label htmlFor="name" className="mb-2 block text-sm font-medium">Name</label>
                 <input
