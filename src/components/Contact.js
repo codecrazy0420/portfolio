@@ -7,7 +7,8 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
+    access_key: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -22,9 +23,11 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+ //9b26aa54-a925-40da-8916-4b1fa6a0c1e6
+    formData.access_key = "9b26aa54-a925-40da-8916-4b1fa6a0c1e6";
 
     try {
-      const response = await fetch('https://formsubmit.co/codecrazy0420@gmail.com', {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
