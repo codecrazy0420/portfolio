@@ -69,7 +69,7 @@ const Contact = () => {
     <section id="contact" className="py-16 sm:py-20 lg:py-24 bg-foreground/[0.02]">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contac Me</h2>
+          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contattt Me</h2>
         </div>
 
         <div className="flex flex-wrap gap-10">
